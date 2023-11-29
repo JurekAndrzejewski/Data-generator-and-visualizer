@@ -1,0 +1,9 @@
+Prepare a GUI that enables the generation and visualization of data samples from two classes.
+Samples should be two-dimensional, so that they can be plotted in x-y space. Each class should
+consist of one or more gaussian modes1 with their means and variances chosen randomly from
+some given interval (e.g. µx, µy ∈ [−1..1]).
+The interface should allow for setting the desired number of modes per class and a desired number
+of samples per mode, as well as visualization of the generated samples on a two-dimensional plot.
+Class labels, which are either 0 or 1, should be indicated by colors.
+The interface should be created using a proper UI library (QT, Streamlit, Dash (plotly), tkinter).
+Do not use the GUI functionality built into matplotlib.
